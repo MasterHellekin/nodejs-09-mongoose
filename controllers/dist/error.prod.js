@@ -1,1 +1,0 @@
-"use strict";exports.get404=function(t,e,s){e.status(404).render("404",{pageTitle:"Page Not Found",path:"/404",isAuthenticated:t.session.isLoggedIn})},exports.get500=function(t,e,s){e.status(500).render("500",{pageTitle:"Page Not Found",path:"/500",isAuthenticated:t.session.isLoggedIn})};
