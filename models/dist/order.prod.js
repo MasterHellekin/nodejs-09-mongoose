@@ -1,1 +1,0 @@
-"use strict";var mongoose=require("mongoose"),Schema=mongoose.Schema,ordenSchema=new Schema({products:[{product:{type:Object,required:!0},quantity:{type:Number,required:!0}}],user:{email:{type:String,required:!0},userId:{type:Schema.Types.ObjectId,required:!0,ref:"User"}}});module.exports=mongoose.model("Order",ordenSchema);

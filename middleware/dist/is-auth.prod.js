@@ -1,1 +1,0 @@
-"use strict";module.exports=function(e,i,s){if(!e.session.isLoggedIn)return i.redirect("/login");s()};

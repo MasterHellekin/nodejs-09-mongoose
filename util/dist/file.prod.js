@@ -1,1 +1,0 @@
-"use strict";var fs=require("fs"),deleteFile=function(e){fs.unlink(e,function(e){if(e)throw e})};exports.deleteFile=deleteFile;
